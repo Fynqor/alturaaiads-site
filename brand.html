@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Altura AI Ads — Brand Guide</title>
+
+  <meta name="description" content="Altura AI Ads brand guidelines: logos, colors, and usage rules." />
+  <link rel="canonical" href="https://www.alturaaiads.com/brand" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <meta name="theme-color" content="#0f172a" />
+
+  <style>
+    :root {
+      --primary: #0f172a; /* navy */
+      --accent: #38bdf8;  /* sky */
+      --light: #f8fafc;   /* near white */
+      --muted: #64748b;   /* slate */
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--primary);
+      background: var(--light);
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+      color: #fff;
+      padding: 3.5rem 1.5rem;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 0.5rem; font-size: clamp(1.8rem, 3.2vw, 2.6rem); }
+    header p { margin: 0; color: #e6f6fe; }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 3rem;
+    }
+    .section {
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+      padding: 1.75rem;
+      margin-bottom: 1.25rem;
+    }
+    h2 {
+      margin: 0 0 0.75rem;
+      font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+    }
+    p { color: var(--muted); margin-top: 0.25rem; }
+
+    .grid {
+      display: grid;
+      gap: 1rem;
+    }
+    @media (min-width: 720px) {
+      .grid-2 { grid-template-columns: repeat(2, 1fr); }
+      .grid-3 { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    .logo-card {
+      background: #fff;
+      border: 1px solid #eef2f7;
+      border-radius: 12px;
+      padding: 1rem;
+      text-align: center;
+    }
+    .logo-card h3 {
+      margin: 0.5rem 0 0.25rem;
+      font-size: 1rem;
+      color: var(--primary);
+    }
+    .logo-card span {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    .logo-preview {
+      aspect-ratio: 1.8/1;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .logo-preview img {
+      max-width: 70%;
+      height: auto;
+    }
+
+    .swatches {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+    }
+    .swatch {
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #eef2f7;
+      background: #fff;
+    }
+    .swatch-chip {
+      height: 72px;
+    }
+    .swatch-body { padding: 0.75rem 1rem; }
+    .code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+
+    .rules ul {
+      margin: 0.5rem 0 0;
+      padding-left: 1.2rem;
+    }
+
+    .downloads a {
+      display: inline-block;
+      padding: 0.65rem 1rem;
+      border-radius: 10px;
+      border: 1px solid #e6eef5;
+      background: #fff;
+      text-decoration: none;
+      color: var(--primary);
+      margin: 0.35rem 0.35rem 0 0;
+      font-weight: 600;
+      transition: transform 0.12s ease, background 0.12s ease;
+    }
+    .downloads a:hover { background: #f2f8fc; transform: translateY(-1px); }
+
+    .topbar {
+      position: sticky; top: 0; z-index: 5;
+      background: #ffffffcc; backdrop-filter: blur(6px);
+      border-bottom: 1px solid #eef2f7; padding: 0.6rem 1rem;
+    }
+    .topbar-inner {
+      max-width: 1000px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 0.75rem;
+    }
+    .brand {
+      display: inline-flex; align-items: center; gap: 0.6rem; text-decoration: none; color: var(--primary);
+      font-weight: 700;
+    }
+    .brand-badge {
+      width: 28px; height: 28px; border-radius: 8px;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+      color: #fff; display: grid; place-items: center; font-size: 0.9rem;
+    }
+    .btn {
+      display: inline-block; text-decoration: none; font-weight: 700;
+      padding: 0.55rem 0.9rem; border-radius: 10px;
+      background: var(--accent); color: #082231;
+    }
+    .btn:hover { filter: brightness(0.95); }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="/">
+        <span class="brand-badge">AA</span>
+        <span>Altura AI Ads</span>
+      </a>
+      <a class="btn" href="/">← Back to Home</a>
+    </div>
+  </div>
+
+  <header>
+    <h1>Brand Guide</h1>
+    <p>Logos, colors, and usage guidelines for Altura AI Ads</p>
+  </header>
+
+  <main class="container">
+
+    <!-- Logos -->
+    <section class="section">
+      <h2>Logos</h2>
+      <p>Use the monogram for icons and small spaces. Prefer the horizontal lockup for headers and documents; use the stacked lockup where square or centered marks fit best.</p>
+
+      <div class="grid grid-3" style="margin-top:1rem;">
+        <div class="logo-card">
+          <div class="logo-preview">
+            <img src="/logo-AA.svg" alt="Altura AI Ads — AA Monogram" />
+          </div>
+          <h3>AA Monogram</h3>
+          <span>SVG &middot; PNG</span>
+        </div>
+
+        <div class="logo-card">
+          <div class="logo-preview">
+            <img src="/lockup-horizontal.svg" alt="Altura AI Ads — Horizontal Lockup" />
+          </div>
+          <h3>Horizontal Lockup</h3>
+          <span>SVG &middot; PNG</span>
+        </div>
+
+        <div class="logo-card">
+          <div class="logo-preview">
+            <img src="/lockup-vertical.svg" alt="Altura AI Ads — Vertical Lockup" />
+          </div>
+          <h3>Vertical Lockup</h3>
+          <span>SVG &middot; PNG</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Colors -->
+    <section class="section">
+      <h2>Brand Colors</h2>
+      <p>Our palette balances trust and clarity: deep navy for foundation, sky blue for emphasis, soft light for space.</p>
+
+      <div class="swatches" style="margin-top:1rem;">
+        <div class="swatch">
+          <div class="swatch-chip" style="background:#0f172a;"></div>
+          <div class="swatch-body">
+            <strong>Primary — Navy</strong><br/>
+            <span class="code">#0f172a</span>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-chip" style="background:#38bdf8;"></div>
+          <div class="swatch-body">
+            <strong>Accent — Sky</strong><br/>
+            <span class="code">#38bdf8</span>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-chip" style="background:#f8fafc; border-top:1px solid #e5e7eb;"></div>
+          <div class="swatch-body">
+            <strong>Background — Light</strong><br/>
+            <span class="code">#f8fafc</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Usage -->
+    <section class="section rules">
+      <h2>Usage Guidelines</h2>
+      <div class="grid grid-2">
+        <div>
+          <p><strong>Do:</strong></p>
+          <ul>
+            <li>Use the horizontal lockup for site headers, docs, proposals.</li>
+            <li>Use the monogram for icons, favicons, and small spaces.</li>
+            <li>Maintain padding around the logo (at least the height of the “A”).</li>
+            <li>Use brand colors shown above for consistency.</li>
+          </ul>
+        </div>
+        <div>
+          <p><strong>Don’t:</strong></p>
+          <ul>
+            <li>Stretch, skew, rotate, or apply effects to the logo.</li>
+            <li>Change the brand colors to off-brand hues.</li>
+            <li>Place logos on low-contrast backgrounds without separation.</li>
+            <li>Add outlines or shadows that reduce legibility.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Downloads -->
+    <section class="section">
+      <h2>Downloads</h2>
+      <p>Right-click and “Save link as…” to download. SVGs are best for print and scaling; PNGs are convenient for slides and docs.</p>
+
+      <div class="downloads" style="margin-top:0.5rem;">
+        <!-- Monogram -->
+        <a href="/logo-AA.svg" download>AA Monogram (SVG)</a>
+        <a href="/logo-AA.png" download>AA Monogram (PNG)</a>
+        <!-- Lockups -->
+        <a href="/lockup-horizontal.svg" download>Horizontal Lockup (SVG)</a>
+        <a href="/lockup-horizontal.png" download>Horizontal Lockup (PNG)</a>
+        <a href="/lockup-vertical.svg" download>Vertical Lockup (SVG)</a>
+        <a href="/lockup-vertical.png" download>Vertical Lockup (PNG)</a>
+        <!-- Site assets -->
+        <a href="/favicon.svg" download>Favicon (SVG)</a>
+        <a href="/apple-touch-icon.png" download>Apple Touch Icon (PNG)</a>
+        <a href="/og-image.png" download>OG Image (PNG)</a>
+        <!-- SEO files -->
+        <a href="/robots.txt" download>robots.txt</a>
+        <a href="/sitemap.xml" download>sitemap.xml</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer style="text-align:center; padding:1.5rem; color:#7b8798;">
+    © 2025 Altura AI Ads · All rights reserved.
+  </footer>
+</body>
+</html>
